@@ -1,17 +1,53 @@
-[
-  {
-    "Name": "Rice",
-    "Weight": 40,
-    "Price": 300
-  },
-  {
-    "Name": "Wheat",
-    "Weight": 10,
-    "Price": 100
-  },
-  {
-    "Name": "Pulses",
-    "Weight": 30,
-    "Price": 150
-  }
-]
+{
+  "Rice": [
+    {
+      "Name": "Basmati",
+      "Weight": 10,
+      "Price": 100
+    },
+    {
+      "Name": "Sona",
+      "Weight": 15,
+      "Price": 150
+    },
+    {
+      "Name": "Jeera",
+      "Weight": 20,
+      "Price": 900
+    }
+  ],
+  "Wheat": [
+    {
+      "Name": "Oklaho",
+      "Weight": 10,
+      "Price": 100
+    },
+    {
+      "Name": "Colora",
+      "Weight": 20,
+      "Price": 200
+    },
+    {
+      "Name": "Kansas",
+      "Weight": 30,
+      "Price": 300
+    }
+  ],
+  "Pulses": [
+    {
+      "Name": "Masoor",
+      "Weight": 10,
+      "Price": 500
+    },
+    {
+      "Name": "Urad2",
+      "Weight": 10,
+      "Price": 800
+    },
+    {
+      "Name": "Rajma",
+      "Weight": 10,
+      "Price": 400
+    }
+  ]
+}
