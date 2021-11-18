@@ -11,7 +11,7 @@ namespace Objectorientedprogram
             while (flag)
             {
                 Console.WriteLine("\nWelcome to Object Oriented Programs"); 
-                Console.WriteLine("Enter Progran number to get excuted \n1. Inventory management \n2. Extend Inventory data management \n3. Exit");
+                Console.WriteLine("Enter Progran number to get excuted \n1. Inventory management \n2. Extend Inventory data management \n3. Stock account management \n4. Exit");
                 int option = Convert.ToInt32(Console.ReadLine());
                 switch (option)
                 {
@@ -27,6 +27,10 @@ namespace Objectorientedprogram
                         manage.DisplayData("Pulses");
                         break;
                     case 3:
+                        InventorystockMain Stock = new InventorystockMain();
+                        Stock.DisplayData(@"E:\RFP\ObjectOrientedPrograms\Objectorientedprogram\Objectorientedprogram\NewFolder\Inventorystock.json");
+                        break;
+                    case 4:
                         flag = false;
                         break;
                 }

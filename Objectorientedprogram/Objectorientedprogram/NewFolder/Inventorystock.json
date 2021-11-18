@@ -1,0 +1,17 @@
+[
+  {
+    "Stockname": "SBIBANK",
+    "Numberofshare":14,
+    "Shareprice": 1800
+  },
+  {
+    "Stockname": "AXISBANK",
+    "Numberofshare": 8,
+    "Shareprice": 1200
+  },
+  {
+    "Stockname": "HDFCBANK",
+    "Numberofshare": 16,
+    "Shareprice": 1400
+  }
+]

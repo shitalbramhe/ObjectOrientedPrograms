@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Objectorientedprogram
 {
-    internal class InventoryModel
+    class InventoryModel
     {
-        
+
         public string Name { get; set; }
         public int Weight { get; set; }
         public int Price { get; set; }
